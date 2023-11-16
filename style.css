@@ -14,16 +14,19 @@ img{
 
 .container{
     width: 100%;
-    width: 1200px;
+    height: 100%;
     margin: 0;
+    flex-grow: 1;
 }
 
 main{
-    /* position: relative;
-    left: 240px;
-    bottom: 104px; */
+    height: calc(100vh - 60px);
 }
-/* fine regole defoult */
+
+
+/* defoult */
+
+
 
 
 .nav-bar-vertivale{
@@ -48,6 +51,17 @@ main{
 
 .contenitore-2{
     display: flex;
+    height: 100%;
+}
+
+ul li {
+    padding: 10px;
+}
+
+.nav-orizzontale{
+    display: flex;
+    justify-content: center;
+
 }
 
 /* fine main */
