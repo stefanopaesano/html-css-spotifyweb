@@ -54,14 +54,45 @@ main{
     height: 100%;
 }
 
-ul li {
+ul,li {
     padding: 10px;
+    list-style: none;
 }
 
 .nav-orizzontale{
     display: flex;
     justify-content: center;
 
+}
+
+.bottone{
+    border: none;
+    margin-left: 12px;
+    margin-top: 12px;
+    
+}
+
+
+/* inizio card */
+
+
+.my-row{
+    display: flex;
+
+}
+
+
+.my-card {
+    width: calc((100% / 6) - 20px);
+    margin: 0 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid;
+}
+
+.inline-block{
+    display: inline;
 }
 
 /* fine main */
