@@ -74,6 +74,8 @@ ul,li {
     border: none;
     margin-left: 12px;
     margin-top: 12px;
+    width: 30px;
+    height: 30px;
     
 }
 
@@ -139,4 +141,10 @@ ul,li {
 
 .icon-foot{
     border: 2px solid black;
+    display: flex;
+}
+
+.iconcina{
+    padding: 5px;
+
 }
