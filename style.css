@@ -24,6 +24,8 @@ main{
 }
 
 
+
+
 /* defoult */
 
 
@@ -47,6 +49,7 @@ main{
 .main-for-me{
     width: 100%;
     border: 2px solid black;
+    height: 96.56%;
 }
 
 .contenitore-2{
@@ -75,6 +78,14 @@ ul,li {
 
 /* inizio card */
 
+.sezione-due-no-border{
+    margin-top: 30px;
+}
+
+.sezione-tre-con-border{
+    margin-top: 30px;
+}
+
 
 .my-row{
     display: flex;
@@ -87,12 +98,21 @@ ul,li {
     margin: 0 10px;
     background-color: aliceblue;
     border-radius: 15px;
-    padding: 10px;
     border: 2px solid;
 }
 
-.inline-block{
-    display: inline;
+.my-row-sotto-card{
+    display: flex;
+}
+
+.my-sotto-card{
+    padding: 10px;
+    width: calc((100% / 6) - 20px);
+    margin: 0 10px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+   
 }
 
 /* fine main */
